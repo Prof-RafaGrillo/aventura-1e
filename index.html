@@ -8,20 +8,20 @@
 </head>
 <body>
     <main>
-        <div class="passo ativo">
+        <div class="passo ativo" id="passo-0">
             <img class="img01" src="./pokemon.png" alt="">
             <p>Você acabou de receber seu primeiro Pokémon e começa sua jornada!
 Um professor da sua cidade te entrega a Pokébola e pergunta:
 </p>
-            <button>Rota da Floresta</button>
-            <button>Rota da Montanha</button>
+            <button class="btn-proximo" data-proximo="1" >Rota da Floresta</button>
+            <button class="btn-proximo" data-proximo="2">Rota da Montanha</button>
         </div>
-         <div class="passo ativo">
+         <div class="passo ativo" id="passo-1">
             <img class="img01" src="./floresta.jpg" alt="">
             <p>Você seguiu pela Floresta e encotrou um pokemon.
 </p>
-            <button>Tentar Capturar</button>
-            <button>Tentar Espantar</button>
+            <button class="btn-proximo" data-proximo="11">Tentar Capturar</button>
+            <button class="btn-proximo" data-proximo="12">Tentar Espantar</button>
         </div>
     </main>
 </body>
